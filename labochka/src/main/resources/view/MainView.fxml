@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0"
+            prefWidth="498.0" style="-fx-background-color: #e6e6e6;" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+    <Button fx:id="mv_btn_search" cancelButton="true" layoutX="121.0" layoutY="150.0" mnemonicParsing="false"
+            prefHeight="39.0" prefWidth="255.0" style="-fx-background-color: #5c33ff; -fx-border-radius: 5;"
+            text="Поиск значений" textFill="#000000">
+        <font>
+            <Font name="Ustroke Regular" size="18.0"/>
+        </font>
+    </Button>
+    <Button fx:id="mv_btn_add" cancelButton="true" layoutX="121.0" layoutY="226.0" mnemonicParsing="false"
+            prefHeight="39.0" prefWidth="255.0" style="-fx-background-color: #5c33ff; -fx-border-radius: 5;"
+            text="Добавить новое слово" textFill="#000000">
+        <font>
+            <Font name="Ustroke Regular" size="18.0"/>
+        </font>
+    </Button>
+</AnchorPane>

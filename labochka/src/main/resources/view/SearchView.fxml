@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0" prefWidth="498.0" style="-fx-background-color: #e6e6e6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SearchController">
+    <Button fx:id="sv_btn_search" cancelButton="true" layoutX="329.0" layoutY="27.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="145.0" style="-fx-background-color: #5c33ff; -fx-border-radius: 5;" text="Поиск" textFill="#000000">
+        <font>
+            <Font name="Ustroke Regular" size="18.0" />
+        </font>
+    </Button>
+    <TextField fx:id="sv_tf_word" layoutX="24.0" layoutY="25.0" prefHeight="44.0" prefWidth="275.0" promptText="Введите слово">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </TextField>
+    <Button fx:id="sv_btn_back" cancelButton="true" layoutX="177.0" layoutY="560.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="145.0" style="-fx-background-color: #5c33ff; -fx-border-radius: 5;" text="Назад" textFill="#000000">
+        <font>
+            <Font name="Ustroke Regular" size="18.0" />
+        </font>
+    </Button>
+   <TextArea fx:id="sv_ta_text" layoutX="23.0" layoutY="121.0" prefHeight="428.0" prefWidth="452.0" wrapText="true" />
+   <CheckBox fx:id="sv_chb_strong" layoutX="24.0" layoutY="88.0" mnemonicParsing="false" text="строгое совпадение" />
+</AnchorPane>

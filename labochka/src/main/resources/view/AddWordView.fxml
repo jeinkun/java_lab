@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0" prefWidth="498.0" style="-fx-background-color: #e6e6e6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddWordController">
+    <Button fx:id="aw_btn_add" cancelButton="true" layoutX="176.0" layoutY="505.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="145.0" style="-fx-background-color: #5c33ff; -fx-border-radius: 5;" text="Добавить" textFill="#000000">
+        <font>
+            <Font name="Ustroke Regular" size="18.0" />
+        </font>
+    </Button>
+    <TextField fx:id="aw_tf_word" layoutX="24.0" layoutY="25.0" prefHeight="44.0" prefWidth="451.0" promptText="Введите слово">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </TextField>
+    <Button fx:id="aw_btn_back" cancelButton="true" layoutX="177.0" layoutY="560.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="145.0" style="-fx-background-color: #5c33ff; -fx-border-radius: 5;" text="Назад" textFill="#000000">
+        <font>
+            <Font name="Ustroke Regular" size="18.0" />
+        </font>
+    </Button>
+   <TextArea fx:id="aw_ta_word" layoutX="24.0" layoutY="87.0" prefHeight="404.0" prefWidth="451.0" promptText="Введите значение" />
+</AnchorPane>
